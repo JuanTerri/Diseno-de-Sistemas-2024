@@ -1,45 +1,40 @@
 # DDS-GRUPO-12
 ## Integrantes
-  - Juan Ignacio Diaz Puig, Juan Martin Terrizzi, Tomás Cerezo, Lucio Valenzano Vecchio, Fahim Wahid, Iñaki Aranzamendi, Juan Polito
+  - Juan Ignacio Diaz Puig, Juan Martin Terrizzi, Tomás Cerezo, Iñaki Aranzamendi y Juan Polito
 
-![alt text](https://bocajuniors2016.wordpress.com/wp-content/uploads/2016/03/telon-bandera-boca-juniors-la-12-tevez.jpeg)
+**Contexto del Proyecto**
+Este trabajo práctico se desarrolló en el marco de un sistema diseñado para mejorar el acceso a alimentos en contextos de vulnerabilidad socioeconómica. La ONG responsable del proyecto implementó heladeras comunitarias en lugares estratégicos (como restaurantes, estaciones de transporte público, etc.) para que las personas en situación de vulnerabilidad puedan acceder a alimentos de manera gratuita. Sin embargo, se identificaron problemas como la falta de organización en las donaciones, el desperdicio de alimentos y la dificultad para detectar fallas técnicas en las heladeras.
 
-## Estructura de repositorio
+El objetivo del sistema es optimizar la gestión de las heladeras, facilitar la colaboración de voluntarios y garantizar que los alimentos lleguen a quienes más lo necesitan.
 
-- ```/TP``` Acá va a estar el TP Integrador Anual
+**Objetivos y Entregas**
+El trabajo práctico se desarrolló en múltiples etapas, con entregas progresivas que incorporaron distintos aspectos del sistema:
 
-- ```/Ejercicios``` Acá van a estar los diferentes ejercicios
+1. Modelado en Objetos y UI/UX: Diseño del dominio, registro de usuarios y visualización de heladeras en un mapa.
+2. Integración con Servicios Externos: Implementación de API REST para recomendaciones de ubicación y estado de las heladeras.
+3. Mensajería Asíncrona y Notificaciones: Gestión de incidentes, alertas y trazabilidad de tarjetas de acceso.
+4. Diseño y Maquetado de Interfaz: Creación de wireframes y prototipos con HTML/CSS.
+5. Arquitectura Web MVC: Implementación del sistema con un cliente liviano basado en server-side rendering.
+6. Persistencia y API REST: Uso de ORM para almacenar datos y desarrollo de un servicio web propio.
+7. Despliegue en la Nube y Diseño Arquitectural: Implementación en un entorno accesible para el público.
+8. Observabilidad y Seguridad: Incorporación de monitoreo, SSO y herramientas de análisis de seguridad.
 
-- ```main``` va a contener código **funcional**  y es la rama de la que las tags de entrega van a ser creadas
+**Funcionalidades Implementadas**
+- Registro de colaboradores y personas en situación vulnerable.
+- Gestión de donaciones y distribución de viandas.
+- Monitoreo del estado de las heladeras mediante sensores.
+- Notificaciones y suscripciones para voluntarios.
+- Sistema de reconocimiento por puntos para colaboradores.
+- Carga masiva de datos mediante archivos CSV.
+- Reportes sobre la actividad de las heladeras y los colaboradores.
 
-- ```develop``` va a contener código que está siendo desarrollado
+**Tecnologías Utilizadas**
+* Backend: Java con arquitectura MVC.
+* Frontend: HTML, CSS, Handlebars.
+* Base de Datos: Uso de ORM y MySql para persistencia.
+* APIs REST: Integraciones con servicios externos.
+* Despliegue: Implementación en la nube con enfoque modular.
+* Seguridad: Autenticación, autorización y validación de contraseñas.
 
-## Entregas
-
-- [X] 25/4: Implementación de ejercicio Correo (en Git) - Ejercicio Correo
-
-- [X] 26/4: Ejercicio Reserva de Vuelos (sin entrega, lo veremos en clase)
-
-- [X] 03/5: Entrega 1 TP Anual (en Aula Virtual + Git)
-
-- [X] 18/5: Actividad sobre Diseño UX/UI (en Aula Virtual)
-
-- [X] 29/5: PokeAPI
-
-- [X] 1/6: Entrega 2 TP Anual PARTE 1
-
-- [X] 4/6: Entrega 2 TP Anual PARTE 2
-
-- [X] 14/6: Analizar y proponer requerimientos no funcionales basados en los atributos de calidad para el TP Integrador Anual
-
-- [X] 17/6: Proponer casos de prueba para la validación de contraseñas de la Entrega 1
-
-- [ ] 26/7: Entrega 3
-
-- [ ] 16/8: Reserva de Vuelo (Ej 31) Diagrama de Clases y DER explicando las estrategias de mapeo
-
-- [ ] 16/8: Puertos (Ej 32) Diagrama de Clases y DER explicando las estrategias de mapeo
-
-- [ ] 16/8: Viajes Compartidos (Ej 28) Diagrama de Clases y DER explicando las estrategias de mapeo
-
-- [ ] 4/9: Entrega 4
+Conclusión
+Este trabajo práctico permitió al grupo desarrollar un sistema integral para la gestión de heladeras comunitarias, optimizando la distribución de alimentos y facilitando la colaboración de voluntarios. A lo largo del proyecto, se aplicaron conceptos de diseño de software, arquitectura web, persistencia de datos y seguridad, culminando con el despliegue del sistema en la nube.
